@@ -37,7 +37,7 @@ float calculatePrice(float money, int year)
     yearsLived = year - 1799;
     if (yearsLived%2 == 0)
     {
-        evenYears = (yearsLived/2) + 1;
+        evenYears = (yearsLived/2);
     }
     else 
     {
